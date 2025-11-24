@@ -1,0 +1,61 @@
+Q51: 
+
+#include <stdio.h>
+
+int main() {
+    int i, j, space;
+
+    for(i = 1; i <= 5; i++) {
+        
+        for(space = 1; space <= 5 - i; space++) {
+            printf(" ");
+        }
+
+        
+        for(j = 6 - i; j <= 5; j++) {
+            printf("%d", j);
+        }
+
+        printf("\n"); 
+    }
+
+    return 0;
+}
+Q52: 
+
+#include <stdio.h>
+
+int main() {
+    int i;
+
+    
+    for(i = 1; i <= 1; i++) {
+        printf("*\n");
+    }
+    printf("\n"); 
+
+    
+    for(i = 1; i <= 3; i++) {
+        printf("*\n");
+    }
+    printf("\n"); 
+
+
+    for(i = 1; i <= 5; i++) {
+        printf("*\n");
+    }
+    printf("\n");
+
+    
+    for(i = 1; i <= 3; i++) {
+        printf("*\n");
+    }
+    printf("\n"); 
+
+    
+    for(i = 1; i <= 1; i++) {
+        printf("*\n");
+    }
+
+    return 0;
+}
